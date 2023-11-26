@@ -37,5 +37,3 @@ I have checked several forums and the issue appears to be known, but not yet fix
 2023/11/20 22:52:53.194 16666 24484 S   Shutdown complete
 2023/11/20 22:52:53.194 16666 16666 S   TeamViewer_Service Stop
 ```
-
-I hope this is fixed soon.
