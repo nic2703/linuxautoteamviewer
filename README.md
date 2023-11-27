@@ -21,6 +21,8 @@ Please do not close this terminal session for the duration of use, as this will 
 ## Notes
 You may have to check the location of your teamviewer folder and update the file paths inside the 'autoteamviewer2.sh' file. You can also change the logging speed, currently it checks connection status every second.
 
+I used the script listed in https://community.teamviewer.com/English/discussion/131541/teamviewer-on-linux-crashes-after-use as inspiration and modified some code to make it restart TeamViewer, as well as make it less resource-intensive. Great thanks to 'misterm3140'!
+
 ## Motivation
 I use TeamViewer to access my Linux PC using my laptop. I have encountered the issue that TeamViewer crashes after 4-5 connections. Since I am away from the PC, it is not possible to restart TeamViewer. 
 
@@ -37,5 +39,3 @@ I have checked several forums and the issue appears to be known, but not yet fix
 2023/11/20 22:52:53.194 16666 24484 S   Shutdown complete
 2023/11/20 22:52:53.194 16666 16666 S   TeamViewer_Service Stop
 ```
-
-I hope this is fixed soon.
