@@ -39,6 +39,7 @@ do
     while [ "$logout_check" = "$logout" ]
     do
         logout_check=$(date -d"$(cat $logpath/$logfile | grep "SessionTerminate" | tail -n 1 | awk '{print $1,$2}')" +%s)
+        sleep 2
     done
 
     kill -9 $(ps aux | grep "$tvpath/$tvclient" | awk '{print $2}')
